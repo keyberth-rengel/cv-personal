@@ -1233,7 +1233,7 @@ h3.w3l-title:after {
 	}
 	.agile-w3l-in {
 		float: left;
-		width: 33%;
+		width: 50%;
 	}
 	.agile-w3l-in p {
 		letter-spacing: 1px;
@@ -1378,6 +1378,10 @@ h3.w3l-title:after {
 	.address h4 {
 		font-size: 1.8em;
 	}
+	.view {
+		width: 290px;
+		height: 280px;
+	}
 }
 @media(max-width: 320px){
 	#menuToggle {
@@ -1475,5 +1479,13 @@ h3.w3l-title:after {
 	.footer {
 		padding: 2em 0em;
 	}
+	.view {
+		width: 258px;
+		height: 277px;
+	}
+	/* .view .mask, .view .content {
+		width: 250px;
+		height: 277px;
+	} */
 }
 
