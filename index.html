@@ -1,350 +1,761 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Classic CV a Personal Keyberth Rengel</title>
-<!-- Meta tag Keywords -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Classic CV Responsive web personal keyberth rengel react html css bootstrap JavaScript" />
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /> <!-- Style-CSS --> 
-<link href="css/efectos.css" rel="stylesheet" type="text/css" media="all" /> <!-- Style-CSS --> 
-<link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
-</head>
-<body> 
-<!-- banner -->
-<div id="home" class="banner">
-	<div class="banner-agileinfo">
-		<!-- header -->
-		<div class="header">
-			<div class="container">		
-				<div class="logo">
-					<h1><a href="index.html">CV - Personal</a></h1>
-				</div> 
-				<div class="menu" id="menu-nav">
-					<a id="menuToggle"> <span class="navClosed"></span> </a>
-					<nav>  
-						<a href="#home" class="active">Inicio</a> 
-						<a href="#about" class="scroll">Acerca de mi</a>  
-						<a href="#skills" class="scroll">Mis habilidades</a>  
-						<a href="#services" class="scroll">Mis servicios</a>
-						<a href="#projects" class="scroll">Mis proyectos</a>
-						<a href="#contact" class="scroll">Contactame</a> 
-					</nav>
-				</div>
-				
-			</div>
-		</div>
-		<!-- //header -->
-		<div class="banner-main">
-			<div class="container">	
-				<div class="col-md-5 banner-left">
-				</div>
-				<div class="col-md-7 banner-text">
-					<p>Bienvenidos</p>
-					<h2><span>Soy Keyberth Rengel</span> Desarrollador web</h2>
-					<div class="w3agile_hire_right">
-						<a href="#contact" class="wthree-more w3more1 nina scroll" data-text="Contactame"> 
-							<span>C</span><span>O</span><span>N</span><span>T</span> <span>A</span><span>C</span><span>T</span><span>A</span><span>M</span><span>E</span>
-						</a> 
-					</div>
-				</div>
-			</div> 
-		</div>
-	</div>
-</div>
-<!-- //banner -->
-<!-- about -->
-<div class="about" id="about">
-	<div class="container">
-		<h3 class="w3l-title">Perfil</h3>
-		<div >
-			<div class="col-md-6 agile-w3l-ab">
-				<ul class="rslides" id="slider">
-					<li>
-						<div class="agile-w3l-ab-img">
-							<img src="images/k1.jpg" class="img-responsive" alt="Homey Designs">
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-6 w3ls-agile-left">
-				<div class="w3ls-agile-left-info">
-					<h4>Nombre</h4>
-					<p>Keyberth Rengel</p>
-				</div>
-				<div class="w3ls-agile-left-info">
-					<h4>Sexo</h4>
-					<p>Masculino</p>
-				</div>
-				<div class="w3ls-agile-left-info">
-					<h4>Pais de origen</h4>
-					<p>Venezuela</p>
-				</div>
-				<div class="w3ls-agile-left-info">
-					<h4>Numero de telefono</h4>
-					<p>+58 412 499 9701</p>
-				</div>
-				<div class="w3ls-agile-left-info">
-					<h4>Direccion de correo</h4>
-					<p><a href="mailto:keyrengel24@gmail.com">keyrengel24@gmail.com</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- //about -->
-<!-- stats -->
-<div class="stats wthree-sub" id="skills">
-	<div class="container"> 
-		<h3 class="w3l-title">Mis habilidades</h3>
-		<div class="col-sm-6 stats_grid_right">
-			<div class="skillbar" data-percent="50">
-			  <span class="skillbar-title" style="background: #f1703a;">HTML 5</span>
-			  <p class="skillbar-bar" style="background: #f88c5e;"></p>
-			  <span class="skill-bar-percent"></span>
-			</div>
-			
-			<div class="skillbar" data-percent="50">
-			  <span class="skillbar-title" style="background: #2980b9;">CSS 3</span>
-			  <p class="skillbar-bar" style="background: #3498db;"></p>
-			  <span class="skill-bar-percent"></span>
-			</div>
-		</div>
-		<div class="col-sm-6 stats_grid_right"> 
-			<div class="skillbar" data-percent="80">
-				<span class="skillbar-title" style="background: #a0d034;">JavaScript</span>
-				<p class="skillbar-bar" style="background: #b2ec2f;"></p>
-				<span class="skill-bar-percent"></span>
-			</div>
+  <head>
+    <title>
+      CV Personal - Keyberth Rengel
+    </title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="keywords"
+      content="Classic CV Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
+    />
+    <script type="application/x-javascript">
+       addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+      function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+    <!--// Meta tag Keywords -->
+    <!-- css files -->
+    <link
+      href="css/bootstrap.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <!-- Bootstrap-Core-CSS -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <!-- Font-Awesome-Icons-CSS -->
+    <link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+    <!-- //css files -->
+    <!-- online-fonts -->
+    <link
+      href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+    <!-- //online-fonts -->
+  </head>
+  <body>
+    <!-- banner -->
+    <div id="home" class="banner">
+      <div class="banner-agileinfo">
+        <!-- header -->
+        <div class="header">
+          <div class="container">
+            <div class="logo">
+              <h1><a href="index.html">CV Clasico</a></h1>
+            </div>
+            <div class="menu">
+              <a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+              <nav>
+                <a href="index.html" class="active">Inicio</a>
+                <a href="#about" class="scroll">Sobre Mi</a>
+                <a href="#skills" class="scroll">Mis Skills</a>
+                <a href="#services" class="scroll">Mis Servicios</a>
+                <a href="#experience" class="scroll">Experiencia</a>
+                <!-- <a href="#education" class="scroll">Certificados</a>  -->
+                <a href="#projects" class="scroll">Certificados</a>
+                <a href="#contact" class="scroll">Contacto</a>
+              </nav>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <!-- //header -->
+        <div class="banner-main">
+          <div class="container">
+            <!-- <div class="col-md-5 banner-left">
+				<img src="images/i1.png" alt=""> 
+			</div> -->
+            <div class="banner-text">
+              <p>Bienvenido</p>
+              <h2><span>Soy Keyberth Rengel</span> Desarrollador Web</h2>
+              <div class="w3agile_hire_right">
+                <a
+                  href="#contact"
+                  class="wthree-more w3more1 nina scroll"
+                  data-text="CONTACTO"
+                >
+                  <span>C</span><span>O</span><span>N</span><span>T</span
+                  ><span>A</span><span>C</span><span>T</span><span>O</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //banner -->
+    <!-- about -->
+    <div class="about" id="about">
+      <div class="container">
+        <h3 class="w3l-title">Mi Perfil</h3>
+        <div class="about-w3l-agileifo-grid">
+          <div class="col-md-7 agile-w3l-ab">
+            <ul class="rslides" id="slider">
+              <li>
+                <div class="agile-w3l-ab-img">
+                  <img
+                    src="images/a3.jpg"
+                    class="img-responsive"
+                    alt="Homey Designs"
+                  />
+                </div>
+              </li>
+              <li>
+                <div class="agile-w3l-ab-img">
+                  <img
+                    src="images/a1.jpg"
+                    class="img-responsive"
+                    alt="Homey Designs"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 w3ls-agile-left">
+            <div class="w3ls-agile-left-info">
+              <h4>Nombre</h4>
+              <p>Keyberth Rengel</p>
+            </div>
+            <div class="w3ls-agile-left-info">
+              <h4>Sexo</h4>
+              <p>Masculino</p>
+            </div>
+            <div class="w3ls-agile-left-info">
+              <h4>Pais</h4>
+              <p>Venezuela</p>
+            </div>
+            <div class="w3ls-agile-left-info">
+              <h4>Numero Telefonico</h4>
+              <p>+58 4124999701</p>
+            </div>
+            <div class="w3ls-agile-left-info">
+              <h4>Correo Electronico</h4>
+              <p>
+                <a href="mailto:keyrengel24@gmail.com">Keyrengel24@gmail.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //about -->
+    <!-- stats -->
+    <div class="stats wthree-sub" id="skills">
+      <div class="container">
+        <h3 class="w3l-title">Mis Skills</h3>
+        <div class="col-sm-6 stats_grid_right">
+          <div class="skillbar" data-percent="50">
+            <span class="skillbar-title" style="background: #f1703a;"
+              >HTML 5</span
+            >
+            <p class="skillbar-bar" style="background: #f88c5e;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+          <!-- End Skill Bar -->
 
-			<div class="skillbar" data-percent="70">
-			  <span class="skillbar-title" style="background: #f1703a;">Bootstrap</span>
-			  <p class="skillbar-bar" style="background: #f88c5e;"></p>
-			  <span class="skill-bar-percent"></span>
-			</div>
-			
-		</div>
-		<div class="col-sm-6 stats_grid_right"> 
-			<div class="skillbar" data-percent="40">
-				<span class="skillbar-title" style="background: #2980b9;">Sass</span>
-				<p class="skillbar-bar" style="background: #3498db;"></p>
-				<span class="skill-bar-percent"></span>
-			</div>
-				
-			<div class="skillbar" data-percent="20">
-				<span class="skillbar-title" style="background: #a0d034;">PHP</span>
-				<p class="skillbar-bar" style="background: #b2ec2f;"></p>
-				<span class="skill-bar-percent"></span>
-			</div>
-				
-		</div>
-		<div class="col-sm-6 stats_grid_right"> 
-			<div class="skillbar" data-percent="60">
-				<span class="skillbar-title" style="background: #f1703a;">React</span>
-				<p class="skillbar-bar" style="background: #f88c5e;"></p>
-				<span class="skill-bar-percent"></span>
-			</div>
-								
-			<div class="skillbar" data-percent="70">
-				<span class="skillbar-title" style="background: #2980b9;">Node</span>
-				<p class="skillbar-bar" style="background: #3498db;"></p>
-				<span class="skill-bar-percent"></span>
-			</div>
-		</div>
-		<div class="col-sm-6 stats_grid_right"> 
-			<div class="skillbar" data-percent="50">
-				<span class="skillbar-title" style="background: #a0d034;">Git</span>
-				<p class="skillbar-bar" style="background: #b2ec2f;"></p>
-				<span class="skill-bar-percent"></span>
-			</div>
-		</div>
+          <div class="skillbar" data-percent="60">
+            <span class="skillbar-title" style="background: #507dbc;"
+              >JavaScript</span
+            >
+            <p class="skillbar-bar" style="background: #a1c6ea;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+          <!-- End Skill Bar -->
 
-	</div> 
-</div>
-<!-- //stats --> 
-<!-- services --> 
-<div class="services" id="services">
-	<div class="container">
-		<h3 class="w3l-title">Mis servicios</h3>
-		<div class="box2">
-			<div class="col-sm-4 s-1">
-				<a>
-					<div class="view view-fifth">
-						<i class="fa fa-laptop" aria-hidden="true"></i>
-						<div class="mask">
-							<i class="fa fa-laptop" aria-hidden="true"></i>
-							<h4>Diseño Web</h4>
-							<p>Creamos sitios web responsivos a cualquier escala</p>
-						</div>
-						<h3>Diseño Web</h3>
-					</div>
-				</a>
-			</div>
-			<div class="col-sm-4 s-1">
-				<a >
-					<div class="view view-fifth">
-						<i class="fa fa-clone" aria-hidden="true"></i>
-						<div class="mask">
-							<i class="fa fa-clone" aria-hidden="true"></i>
-							<h4>Diseño Creativo</h4>
-							<p>Diseñamos su web con estilos personalizados con los estilos que el cliente nos suministre</p>
-						</div>
-						<h3>Diseño Creativo</h3>
-					</div>
-				</a>
-			</div>
-			<div class="col-sm-4 s-1">
-				<a>
-					<div class="view view-fifth">
-						<i class="fa fa-pencil" aria-hidden="true"></i>
-						<div class="mask">
-							<i class="fa fa-pencil" aria-hidden="true"></i>
-							<h4>Codificacion HTML</h4>
-							<p>Contruimos tu sitio web con una estructura firme y con los estandares actuales</p>
-						</div>
-						<h3>Codificacion HTML</h3>
-					</div>
-				</a>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!-- //services --> 
-<!-- interests --> 
-<div class="intra-w3l">
-	<div class="container">
-		<h3 class="w3l-title">Intereses</h3>
-		<div class="agile-w3l-in">
-			<i class="fa fa-camera" aria-hidden="true"></i>
-			<p>Fotografia</p>
-		</div>
-		<div class="agile-w3l-in">
-			<i class="fa fa-book" aria-hidden="true"></i>
-			<p>Leer</p>
-		</div>
-		<div class="agile-w3l-in w3l-intra-re">
-			<i class="fa fa-gamepad" aria-hidden="true"></i>
-			<p>Jugar</p>
-		</div>
-		<div class="agile-w3l-in w3l-intra-re">
-			<i class="fa fa-music" aria-hidden="true"></i>
-			<p>Musica</p>
-		</div>
-	
-	</div>
-</div>
-<!-- projects -->
-<div class="portfolio" id="projects">
-	<div class="container">
-		<h3 class="w3l-title">Mis Proyectos</h3>
-		<div class="agileits_portfolio_grids">
-			<div class="col-md-4 agileits_portfolio_grid">
-				<div class="agileinfo_portfolio_grid hovereffect">
-					<a class="cm-overlay" href="https://keyberth-rengel.github.io/maquetado-TiendaOnline/">
-						<img src="images/trabajos/trabajo.PNG" alt=" " class="img-responsive">
-						<div class="overlay">
-							<h4>Maquetado HTML, CSS (Sass) </h4>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4 agileits_portfolio_grid">
-				<div class="agileinfo_portfolio_grid hovereffect">
-					<a class="cm-overlay" href="https://keyberth-rengel.github.io/recetario/">
-						<img src="images/trabajos/trabajo1.PNG" alt=" " class="img-responsive">
-						<div class="overlay">
-							<h4>Dulces Meriendas React</h4> 
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4 agileits_portfolio_grid">
-				<div class="agileinfo_portfolio_grid hovereffect">
-					<a class="cm-overlay" href="https://keyberth-rengel.github.io/Tienda-Online/">
-						<img src="images/trabajos/trabajo2.PNG" alt=" " class="img-responsive">
-						<div class="overlay">
-							<h4>TiendaOnline React</h4> 
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4 agileits_portfolio_grid">
-				<div class="agileinfo_portfolio_grid hovereffect">
-					<a class="cm-overlay" href="images/trabajos/trabajo3.PNG">
-						<img src="images/trabajos/trabajo3.PNG" alt=" " class="img-responsive">
-						<div class="overlay">
-							<h4>tareas por hacer MERN</h4> 
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!-- //projects -->
-<!-- introduce -->
-<div class="confi-w3l">
-	<div class="container">
-		<h3>Hola...</h3>
-		<p>Es un placer presentarme, soy Keyberth Rengel.</p>
-		<p>Soy una persona muy dedicada y comprometida, cuando comienzo a realizar alguna tarea me enfoco en terminarla. Me considero una persona que puede enfrentar cualquier tipo de retos.</p>
-	</div>
-</div>
-<!-- //introduce -->
-<!-- //contact -->
-<div class="address" id="contact">
-	<div class="container">
-		<h3 class="w3l-title">Contactame</h3>
-		<div class="address-row">
-			<div class="col-md-6 address-left wow agile fadeInLeft animated" data-wow-delay=".5s">
-				<div class="address-grid">
-					<h4 class="wow fadeIndown animated" data-wow-delay=".5s">Ponerse en contanto</h4>
-					<form id="form-contacto" method="post">
-						<input type="text" placeholder="Nombre" name="name" id="name">
-						<input type="email" placeholder="Correo" name="email" id="email">
-						<input type="text" placeholder="Asunto" name="subject" id="asunto">
-						<textarea placeholder="Mensaje" id="message"></textarea>
-						<div class="alert text-center p-3" id="alerta"></div>
-						<input type="submit" value="Enviar">
-					</form>
-				</div>
-			</div>
+          <div class="skillbar" data-percent="50">
+            <span class="skillbar-title" style="background: #319b4a;"
+              >CCS 3</span
+            >
+            <p class="skillbar-bar" style="background: #71b180;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+          <!-- End Skill Bar -->
+        </div>
+        <div class="col-sm-6 stats_grid_right">
+          <div class="skillbar" data-percent="35">
+            <span class="skillbar-title" style="background: #a01294;"
+              >Sass</span
+            >
+            <p class="skillbar-bar" style="background: #aa63a4;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+          <!-- End Skill Bar -->
 
-			<div class="col-md-6 address-right">
-				<div class="address-info address-mdl wow fadeInRight animated" data-wow-delay=".7s">
-					<h4>Telefono </h4>
-					<p>+58 412 499 9701</p>
-					<p>+58 412 116 3790</p>
-				</div>
-				<div class="address-info agileits-info wow fadeInRight animated" data-wow-delay=".6s">
-					<h4>Correo</h4>
-					<p><a href="mailto:keyrengel24@gmail.com"> keyrengel24@gmail.com</a></p>
-					<p><a href="mailto:beyker24kr@gmail.com" > beyker24kr@gmail.com</a></p>
-				</div>
-			</div>
-		</div>	
-	</div>	
-</div>
-<!--//contact-->
-<!-- footer -->
-<div class="footer w3ls">
-	<div class="container">
-		<div class="w3ls-social-icons-2">
-			<a class="facebook" href="https://www.facebook.com/keyberthrengel/"><i class="fa fa-facebook"></i></a>
-			<a class="linkedin" href="https://www.linkedin.com/in/keyberth-alexander-rengel-ibarra-56a89b178/"><i class="fa fa-linkedin"></i></a>
-			<a class="instagram" href="https://www.instagram.com/keyberthrengel/"><i class="fa fa-instagram"></i></a>
-			<a class="github" href="https://github.com/keyberth-rengel"><i class="fa fa-github"></i></a>
-		</div>
-	</div>
-</div>
-<div class="copyrights">
-	<p>&copy; 2019 CV - Personal. Keyberth Rengel </p>
-</div>
-<!-- //footer -->
-<script src="js/index.js"></script>
+          <div class="skillbar" data-percent="30">
+            <span class="skillbar-title" style="background: #b4d61c;">PHP</span>
+            <p class="skillbar-bar" style="background: #b4c75e;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+          <!-- End Skill Bar -->
 
-</body>
+          <div class="skillbar" data-percent="55">
+            <span class="skillbar-title" style="background: #e42b53;">GIT</span>
+            <p class="skillbar-bar" style="background: #be7686;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+        </div>
+        <div class="col-sm-6 stats_grid_right">
+          <div class="skillbar" data-percent="68">
+            <span class="skillbar-title" style="background: #09249b;"
+              >NODE</span
+            >
+            <p class="skillbar-bar" style="background: #8b81af;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+          <!-- End Skill Bar -->
+
+          <div class="skillbar" data-percent="62">
+            <span class="skillbar-title" style="background: #d61c0e;"
+              >BOOTSTRAP</span
+            >
+            <p class="skillbar-bar" style="background: rgb(212, 136, 130);"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+          <!-- End Skill Bar -->
+
+          <div class="skillbar" data-percent="57">
+            <span class="skillbar-title" style="background: #18e7a9;"
+              >REACT</span
+            >
+            <p class="skillbar-bar" style="background: #a2e9d3;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+        </div>
+        <div class="col-sm-6 stats_grid_right">
+          <div class="skillbar" data-percent="60">
+            <span class="skillbar-title" style="background: #a1530a;"
+              >REACT-NATIVE</span
+            >
+            <p class="skillbar-bar" style="background: #b48f6c;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+          <!-- End Skill Bar -->
+
+          <div class="skillbar" data-percent="37">
+            <span class="skillbar-title" style="background: #b4d61c;"
+              >GRAPHQL</span
+            >
+            <p class="skillbar-bar" style="background: #b4c75e;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+          <!-- End Skill Bar -->
+
+          <div class="skillbar" data-percent="40">
+            <span class="skillbar-title" style="background: #e42b53;"
+              >FLUTTER</span
+            >
+            <p class="skillbar-bar" style="background: #be7686;"></p>
+            <span class="skill-bar-percent"></span>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- //stats -->
+    <!-- services -->
+    <div class="services" id="services">
+      <div class="container">
+        <h3 class="w3l-title">Mis Servicios</h3>
+        <div class="box2">
+          <div class="col-sm-4 s-1">
+            <a href="#">
+              <div class="view view-fifth">
+                <i class="fa fa-laptop" aria-hidden="true"></i>
+                <div class="mask">
+                  <i class="fa fa-laptop" aria-hidden="true"></i>
+                  <h4>Maquetados</h4>
+                  <p>
+                    Creamos Aplicaciones Moviles y Sitios Web a cualquier escala
+                  </p>
+                </div>
+                <h3>Maquetados</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-4 s-1">
+            <a href="#">
+              <div class="view view-fifth">
+                <i class="fa fa-clone" aria-hidden="true"></i>
+                <div class="mask">
+                  <i class="fa fa-clone" aria-hidden="true"></i>
+                  <h4>Ajustes</h4>
+                  <p>
+                    Ajustamos los requerimientos suminitrados por el Cliente
+                    para satisfacer sus espectativas
+                  </p>
+                </div>
+                <h3>Ajustes</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-4 s-1">
+            <a href="#">
+              <div class="view view-fifth">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                <div class="mask">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>
+                  <h4>Modificaciones</h4>
+                  <p>Modificamos y Adaptamos sus Aplicaciones Moviles y Web</p>
+                </div>
+                <h3>Modificaciones</h3>
+              </div>
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //interests -->
+    <!-- experience -->
+    <div class="services-w3l" id="experience">
+      <div class="container">
+        <h3 class="w3l-title">Experiencia Laboral</h3>
+        <div class="wthree_latest_albums_grids">
+          <div class="cntl">
+            <span class="cntl-bar cntl-center">
+              <span class="cntl-bar-fill"></span>
+            </span>
+            <div class="cntl-states">
+              <div class="cntl-state">
+                <div class="cntl-content">
+                  <h4>2020</h4>
+                  <p>E-Commerse</p>
+                </div>
+                <div class="cntl-image">
+                  <img src="images/w1.jpg" alt=" " class="img-responsive" />
+                  <div class="w3ls_cntl_image_pos">
+                    <p>App Movil de Tienda online</p>
+                  </div>
+                </div>
+                <div class="cntl-icon cntl-center">01</div>
+              </div>
+              <div class="cntl-state">
+                <div class="cntl-content">
+                  <h4>2020</h4>
+                  <p>Taxi</p>
+                </div>
+                <div class="cntl-image w3_cntl_image">
+                  <img src="images/w2.jpg" alt=" " class="img-responsive" />
+                  <div class="w3ls_cntl_image_pos">
+                    <p>App Movil de Servicio de Taxi</p>
+                  </div>
+                </div>
+                <div class="cntl-icon cntl-center">02</div>
+              </div>
+              <div class="cntl-state">
+                <div class="cntl-content">
+                  <h4>2019</h4>
+                  <p>Reconocimiento Facial</p>
+                </div>
+                <div class="cntl-image">
+                  <img src="images/w3.jpg" alt=" " class="img-responsive" />
+                  <div class="w3ls_cntl_image_pos">
+                    <p>App Movil de Analisis Biometrico</p>
+                  </div>
+                </div>
+                <div class="cntl-icon cntl-center">03</div>
+              </div>
+              <div class="cntl-state">
+                <div class="cntl-content">
+                  <h4>2019</h4>
+                  <p>P4S</p>
+                </div>
+                <div class="cntl-image">
+                  <img src="images/w4.jpg" alt=" " class="img-responsive" />
+                  <div class="w3ls_cntl_image_pos">
+                    <p>Maquetado</p>
+                  </div>
+                </div>
+                <div class="cntl-icon cntl-center">04</div>
+              </div>
+              <div class="cntl-state">
+                <div class="cntl-content">
+                  <h4>2019</h4>
+                  <p>Tienda Online</p>
+                </div>
+                <div class="cntl-image">
+                  <img src="images/w5.jpg" alt=" " class="img-responsive" />
+                  <div class="w3ls_cntl_image_pos">
+                    <p>Maquetado</p>
+                  </div>
+                </div>
+                <div class="cntl-icon cntl-center">05</div>
+              </div>
+              <div class="cntl-state">
+                <div class="cntl-content">
+                  <h4>2019</h4>
+                  <p>Resetario</p>
+                </div>
+                <div class="cntl-image">
+                  <img src="images/w6.jpg" alt=" " class="img-responsive" />
+                  <div class="w3ls_cntl_image_pos">
+                    <p>Resetas de Postres</p>
+                  </div>
+                </div>
+                <div class="cntl-icon cntl-center">06</div>
+              </div>
+              <div class="cntl-state">
+                <div class="cntl-content">
+                  <h4>2019</h4>
+                  <p>Tienda Online</p>
+                </div>
+                <div class="cntl-image">
+                  <img src="images/w7.jpg" alt=" " class="img-responsive" />
+                  <div class="w3ls_cntl_image_pos">
+                    <p>Productos y Carrito de Compras</p>
+                  </div>
+                </div>
+                <div class="cntl-icon cntl-center">07</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //education -->
+    <!-- projects -->
+    <div class="portfolio" id="projects">
+      <div class="container">
+        <h3 class="w3l-title">Certificados</h3>
+        <div class="agileits_portfolio_grids">
+          <div class="col-md-3 agileits_portfolio_grid">
+            <div class="agileinfo_portfolio_grid hovereffect">
+              <a class="cm-overlay" href="images/g1.jpg">
+                <img src="images/g1.jpg" alt=" " class="img-responsive" />
+                <div class="overlay">
+                  <h4>Flutter</h4>
+                </div>
+              </a>
+            </div>
+            <div class="agileinfo_portfolio_grid hovereffect">
+              <a class="cm-overlay" href="images/g5.jpg">
+                <img src="images/g5.jpg" alt=" " class="img-responsive" />
+                <div class="overlay">
+                  <h4>JavaScript</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 agileits_portfolio_grid">
+            <div class="agileinfo_portfolio_grid hovereffect">
+              <a class="cm-overlay" href="images/g3.jpg">
+                <img src="images/g3.jpg" alt=" " class="img-responsive" />
+                <div class="overlay">
+                  <h4>React Hooks</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 agileits_portfolio_grid">
+            <div class="agileinfo_portfolio_grid hovereffect">
+              <a class="cm-overlay" href="images/g2.jpg">
+                <img src="images/g2.jpg" alt=" " class="img-responsive" />
+                <div class="overlay">
+                  <h4>ReactiveX</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 agileits_portfolio_grid">
+            <div class="agileinfo_portfolio_grid hovereffect">
+              <a class="cm-overlay" href="images/g4.jpg">
+                <img src="images/g4.jpg" alt=" " class="img-responsive" />
+                <div class="overlay">
+                  <h4>React Native</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //projects -->
+    <!-- introduce -->
+    <div class="confi-w3l">
+      <div class="container">
+        <h3>Buen Dia</h3>
+        <p>
+          Gracias por entrar a mi cv. Me llamo Keyberth Rengel me resido en
+          Venezuela.
+        </p>
+        <p>
+          Me especializo en el desarrollo web y movil desde hace poco tiempo,
+          pero cuento con varia experiencia en el campo ya dicho, soy
+          responsable, puntual, eficaz y respetuso con mis clientes. Te invito a
+          que veas mis experiencias y conocimientos.
+        </p>
+      </div>
+    </div>
+    <!-- //introduce -->
+    <!-- //contact -->
+    <div class="address" id="contact">
+      <div class="container">
+        <h3 class="w3l-title">Contactame</h3>
+        <div class="address-row">
+          <div
+            class="col-md-6 address-left wow agile fadeInLeft animated"
+            data-wow-delay=".5s"
+          >
+            <div class="address-grid">
+              <h4 class="wow fadeIndown animated" data-wow-delay=".5s">
+                Enviar un Correo
+              </h4>
+              <form id="form-contacto" method="post">
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  name="name"
+                  required=""
+                  id="name"
+                />
+                <input
+                  type="email"
+                  placeholder="Correo Electronico"
+                  name="email"
+                  required=""
+                  id="email"
+                />
+                <input
+                  type="text"
+                  placeholder="Asunto"
+                  name="subject"
+                  required=""
+                  id="asunto"
+                />
+                <textarea
+                  placeholder="Mensaje"
+                  required=""
+                  id="message"
+                ></textarea>
+                <div class="alert text-center p-3" id="alerta"></div>
+                <input type="submit" value="ENVIAR" />
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 address-right">
+            <div
+              class="address-info wow fadeInRight animated"
+              data-wow-delay=".5s"
+            >
+              <h4>Pais</h4>
+              <p>Venezuela</p>
+            </div>
+            <div
+              class="address-info address-mdl wow fadeInRight animated"
+              data-wow-delay=".7s"
+            >
+              <h4>Telefono</h4>
+              <p>+58 4124999701</p>
+              <p>+58 4121163790</p>
+            </div>
+            <div
+              class="address-info agileits-info wow fadeInRight animated"
+              data-wow-delay=".6s"
+            >
+              <h4>Correo Electronico</h4>
+              <p>
+                <a href="mailto:keyrengel24@gmail.com">
+                  keyrengel24@gmail.com</a
+                >
+              </p>
+              <!-- <p><a href="mailto:example@mail.com"> mail2@example.com</a></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//contact-->
+    <!-- footer -->
+    <div class="footer w3ls">
+      <div class="container">
+        <div class="w3ls-social-icons-2">
+          <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+          <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+          <a class="pinterest" href="#"><i class="fa fa-google-plus"></i></a>
+          <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+          <a class="tumblr" href="#"><i class="fa fa-tumblr"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyrights">
+      <p>&copy; 2020. Todo Derecho Reservado | Por Keyberth Rengel</p>
+    </div>
+    <!-- //footer -->
+
+    <!-- js-scripts -->
+    <!-- js -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- Necessary-JavaScript-File-For-Bootstrap -->
+    <!-- //js -->
+
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1000
+          );
+        });
+      });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <!-- for-bottom-to-top smooth scrolling -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        /*
+		var defaults = {
+		containerID: 'toTop', // fading element id
+		containerHoverID: 'toTopHover', // fading element hover id
+		scrollSpeed: 1200,
+		easingType: 'linear' 
+		};
+	*/
+
+        $().UItoTop({ easingType: "easeOutQuart" });
+      });
+    </script>
+    <a href="#" id="toTop" style="display: block;">
+      <span id="toTopHover" style="opacity: 1;"> </span
+    ></a>
+    <!-- //for-bottom-to-top smooth scrolling -->
+    <!-- menu-script -->
+    <script>
+      (function($) {
+        // Menu Functions
+        $(document).ready(function() {
+          $("#menuToggle").click(function(e) {
+            var $parent = $(this).parent(".menu");
+            $parent.toggleClass("open");
+            var navState = $parent.hasClass("open") ? "hide" : "show";
+            $(this).attr("title", navState + " navigation");
+            // Set the timeout to the animation length in the CSS.
+            setTimeout(function() {
+              console.log("timeout set");
+              $("#menuToggle > span")
+                .toggleClass("navClosed")
+                .toggleClass("navOpen");
+            }, 200);
+            e.preventDefault();
+          });
+        });
+      })(jQuery);
+    </script>
+    <!-- //menu-script -->
+    <!-- baneer-js -->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+      // You can also use "$(window).load(function() {"
+      $(function() {
+        // Slideshow 4
+        $("#slider").responsiveSlides({
+          auto: true,
+          pager: false,
+          nav: false,
+          speed: 500,
+          namespace: "callbacks",
+          before: function() {
+            $(".events").append("<li>before event fired.</li>");
+          },
+          after: function() {
+            $(".events").append("<li>after event fired.</li>");
+          }
+        });
+      });
+    </script>
+    <!-- //baneer-js -->
+    <!-- skills -->
+    <script src="js/skill.bars.jquery.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".skillbar").skillBars({
+          from: 0,
+          speed: 4000,
+          interval: 100,
+          decimals: 0
+        });
+      });
+    </script>
+    <!-- //skills -->
+    <!-- timeline -->
+    <script type="text/javascript" src="js/jquery.cntl.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(e) {
+        $(".cntl").cntl({
+          revealbefore: 300,
+          anim_class: "cntl-animate",
+          onreveal: function(e) {
+            console.log(e);
+          }
+        });
+      });
+    </script>
+    <!-- //timeline -->
+    <!-- accordion -->
+    <script>
+      jQuery(document).ready(function() {
+        function close_accordion_section() {
+          jQuery(".accordion .accordion-section-title").removeClass("active");
+          jQuery(".accordion .accordion-section-content")
+            .slideUp(300)
+            .removeClass("open");
+        }
+
+        jQuery(".accordion-section-title").click(function(e) {
+          // Grab current anchor value
+          var currentAttrValue = jQuery(this).attr("href");
+
+          if (jQuery(e.target).is(".active")) {
+            close_accordion_section();
+          } else {
+            close_accordion_section();
+
+            // Add active class to section title
+            jQuery(this).addClass("active");
+            // Open up the hidden content panel
+            jQuery(".accordion " + currentAttrValue)
+              .slideDown(300)
+              .addClass("open");
+          }
+
+          e.preventDefault();
+        });
+      });
+    </script>
+    <!-- //accordion -->
+    <!-- for projects -->
+    <script src="js/jquery.tools.min.js"></script>
+    <script src="js/jquery.mobile.custom.min.js"></script>
+    <script src="js/jquery.cm-overlay.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".cm-overlay").cmOverlay();
+      });
+    </script>
+    <!-- //for projects -->
+    <!-- smooth scrolling -->
+    <script src="js/SmoothScroll.min.js"></script>
+    <!-- //smooth scrolling -->
+    <!-- //js-scripts -->
+    <script src="js/index.js"></script>
+  </body>
 </html>
